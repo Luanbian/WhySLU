@@ -1,0 +1,153 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+a:link, a:active, a:visited{
+    color: #315e8a;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* grid 960px */
+.linha{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 410px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 740px;
+    border-style: groove;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
+/* estilos reutilizaveis */
+.sem-padding{
+    padding: 0 !important;
+}
+.sem-margin{
+    margin: 0 !important;
+}
+h2{
+    margin: 10px 40px;
+    width: 550px;
+    text-align: left;
+    font-weight: 400;
+}
+h3, h4{
+    font-weight: 500;
+    margin: 15px 0 10px 0;
+}
+ul li, ol li{
+    margin-bottom: 5px;
+}
+ul.inline li, ol.inline li{
+    display: inline;
+    margin: 15px;
+}
+ul.inline li:last-child, ol.inline li:last-child{
+    margin-right: 0;
+}
+ul.sem-marcador, ol.sem-marcador{
+    list-style: none;
+}
+a.botão, input.botão{
+    background: #1f3c58;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+}
+a.botão:hover, input.botão:hover{
+    background: #315eba;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* layout do site */
+#site{
+    width: auto;
+    margin: 0px 300px;
+}
+.header{
+    background: #003da5;
+    width: auto;
+    height: auto;
+}
+.conteudo-extra{
+    background: #ffffff;
+}
+h3{
+    text-transform: uppercase;
+}
+.footer{
+    background: #1f3c58;
+    color: #ebebeb;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
+ul.noticias li{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+ul.noticias li img{
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+ul.noticias li h4{
+    margin: -2px 0 5px 0;
+    font-weight: 500;
+}
+ul.noticias li p{
+    margin: 5px 0;
+    font-weight: 300;
+}
+ul.noticias li p a{
+    font-weight: 300;
+}
